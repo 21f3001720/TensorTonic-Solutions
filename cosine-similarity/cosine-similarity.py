@@ -13,7 +13,5 @@ def cosine_similarity(a, b):
         return 0
     else:
         cos_sim = np.dot(a,b)
-    
         return cos_sim/(norm_a*norm_b)
-    
     pass
