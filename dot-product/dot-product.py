@@ -11,5 +11,4 @@ def dot_product(x, y):
         return np.dot(x,y)
     else:
         raise ValueError("Input arrays must have the same length")
-    # Write code here
     pass
