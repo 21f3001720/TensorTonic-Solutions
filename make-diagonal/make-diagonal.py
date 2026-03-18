@@ -5,6 +5,8 @@ def make_diagonal(v):
     Returns: (n, n) NumPy array with v on the main diagonal
     """
     # Write code here
+    # Single line solution : np.diag(nv)
+    
     A = np.zeros((len(v),len(v)))
     for i in range(len(v)):
         A[i,i] = v[i]
